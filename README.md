@@ -21,7 +21,7 @@ Este ejercicio desarrolla un identificador de notas musicales que permite recono
 
 - *Ruido en el Espectro de Frecuencias*: Solucionado mediante filtro_pasa_banda(), aplicando un filtro de paso banda para limitar las frecuencias al rango esperado del instrumento.
 - *Desviación en la Frecuencia de las Notas*: Añadida una tolerancia del 5% en identificador_nota para compensar ligeras desviaciones en la frecuencia de las notas.
-- **Diferencias en la Detección con find_peaks**: Mantenidas dos versiones de procesamiento (con y sin find_peaks de scipy) para facilitar futuras pruebas y posibles aplicaciones de detección de acordes.
+- *Diferencias en la Detección con find_peaks*: Mantenidas dos versiones de procesamiento (con y sin find_peaks de scipy) para facilitar futuras pruebas y posibles aplicaciones de detección de acordes.
 
 Estas soluciones mejoraron la precisión y robustez del identificador de notas musicales, haciéndolo adecuado para configuraciones de audio variadas.
 
